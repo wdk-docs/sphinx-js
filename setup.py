@@ -27,7 +27,7 @@ setup(
     test_suite='nose.collector',
     url='https://github.com/mozilla/sphinx-js',
     include_package_data=True,
-    install_requires=['docutils', 'Jinja2>2.0,<3.0', 'parsimonious>=0.7.0,<0.8.0', 'six>=1.9.0,<2.0', 'Sphinx<2.0'],
+    install_requires=['docutils', 'Jinja2>2.0,<3.0', 'parsimonious>=0.7.0,<0.8.0', 'six>=1.9.0,<2.0', 'Sphinx<4.0'],
     classifiers=[
         'Intended Audience :: Developers',
         'Natural Language :: English',
@@ -38,6 +38,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Documentation :: Sphinx',
         'Topic :: Software Development :: Documentation'
-        ],
+    ],
     keywords=['sphinx', 'documentation', 'docs', 'javascript', 'js', 'jsdoc', 'restructured'],
 )
